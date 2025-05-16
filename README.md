@@ -71,8 +71,8 @@ Visualizations (bar charts) confirmed similar user distribution across groups an
 
 A **two-proportion z-test** was used to test the hypothesis:
 
-- **Null Hypothesis (H₀):** Conversion rate of new page ≤ Conversion rate of old page
-- **Alternative Hypothesis (H₁):** Conversion rate of new page > Conversion rate of old page
+- **Null Hypothesis (H₀):** Conversion rate of new page = Conversion rate of old page
+- **Alternative Hypothesis (H₁):** Conversion rate of new page ≠ Conversion rate of old page
 
 ### 🧪 Test Results:
 
