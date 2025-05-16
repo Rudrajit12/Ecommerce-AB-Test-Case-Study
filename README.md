@@ -1,9 +1,10 @@
 # 📈 Evaluating a Landing Page Redesign: A/B Testing Analysis for an E-Commerce Platform
 
-**Project Category:** A/B Testing / Statistical Analysis  
-**Tools & Technologies:**  
-Python · Pandas · NumPy · SciPy · Matplotlib · Seaborn  
-**Other Tools:** Jupyter Notebooks
+### **Project Category:** A/B Testing / Statistical Analysis  
+### **Tools & Technologies:**  
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-43B02A?style=for-the-badge&logo=seaborn&logoColor=white) ![Statsmodels](https://img.shields.io/badge/statsmodels-0.14.0+-blue)
+
+**Other Tools**: NumPy, Jupyter Notebooks
 
 ---
 
@@ -12,6 +13,9 @@ Python · Pandas · NumPy · SciPy · Matplotlib · Seaborn
 In the fast-moving world of e-commerce, landing pages play a crucial role in converting visitors into customers. Even a small improvement in conversion rate can lead to significant revenue growth. This project explores whether a newly designed landing page improves conversion rates over the existing one, using a rigorous A/B testing framework.
 
 By implementing a statistically sound A/B Test, the analysis investigates the effectiveness of the new design and its impact on user behavior across different countries. The final recommendation is backed by hypothesis testing using a two-proportion z-test.
+
+![A/B Testing Diagram](https://drive.google.com/uc?export=view&id=1C031Lqjv8PRpdAj48gPM9H8RXAMgXAq5)
+
 
 ---
 
@@ -26,7 +30,7 @@ To answer this, users were randomly assigned to either the **control group** (ol
 
 ## 📂 Dataset Description
 
-**[Download Dataset](https://drive.google.com/file/d/1VM9JBEgFoWySWY4GBanb6BA1eFCIRcDd/view?usp=sharing)**
+**[Download Dataset](https://drive.google.com/uc?export=download&id=1NCHCTl-rmAK4NGLnUKvWoOQHDA2vbo0J)**
 
 - **Rows:** ~295,000 user visits
 - **Columns:** 5
@@ -51,9 +55,13 @@ Key visualizations and breakdowns included:
 | UK      | 36,100         | 35,861           |
 | US      | 100,988        | 101,197          |
 
+![User Distribution](https://drive.google.com/uc?export=view&id=122ac5ukO8U1cC7H-jgdmzGPRBWRgTfCS)
+
 **Conversion Rates**  
 - Control Group: **12.02%**  
 - Treatment Group: **11.87%**
+
+![Conversion Rates](https://drive.google.com/uc?export=view&id=16JBYkQpAQbbWYSGFu2_RCIUIL-dem_z7)
 
 Visualizations (bar charts) confirmed similar user distribution across groups and no visible conversion improvement for the new landing page.
 
@@ -90,7 +98,7 @@ pip install pandas numpy matplotlib seaborn scipy statsmodels
 
 ---
 
-### 📌 Key Takeaways
+## 📌 Key Takeaways
 
 * The new landing page did not significantly outperform the old one in terms of conversion rate.
 
@@ -100,15 +108,15 @@ pip install pandas numpy matplotlib seaborn scipy statsmodels
 
 ---
 
-### 📅 Limitations & Future Scope
+## 📅 Limitations & Future Scope
 
-Limitations:
+### Limitations:
 
 - The experiment assumes random assignment and no implementation bugs.
 
 - No segmentation by user type, device, or visit behavior was included.
 
-Future Improvements:
+### Future Improvements:
 
 - Segmented A/B Testing by geography, traffic source, or device type.
 
@@ -118,11 +126,30 @@ Future Improvements:
 
 ---
 
-### 👤 About the Author
+## References:
 
-Author: Rudrajit Bhattacharyya
-Email: rudrajitb24@gmail.com
-LinkedIn: LinkedIn Profile
-GitHub: GitHub Profile
+### 📊 Z-Test Methodology Reference
+- [Two-Proportion Z-Test Explained – Towards Data Science](https://towardsdatascience.com/ab-testing-with-python-e5964dd66143/)
+- [Hypothesis Testing – Khan Academy](https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample)
+
+### 🧪 A/B Testing Concepts and Best Practices
+- [Optimizely A/B Testing Guide](https://www.optimizely.com/optimization-glossary/ab-testing/)
+
+---
+
+## Resources
+
+- **IPYNB Notebook**: [Colab Link](https://colab.research.google.com/drive/1_yLgcjAHwjWokom_zBbConsCq27GFX53?usp=sharing)  
+- **GitHub Repository**: [GitHub Link](https://github.com/Rudrajit12/Ecommerce-AB-Test-Case-Study)
+
+---
+
+## About the Author
+
+**Author**: Rudrajit Bhattacharyya  
+
+- **Email**: [rudrajitb24@gmail.com](mailto:rudrajitb24@gmail.com)  
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rudrajitb/)  
+- **GitHub**: [GitHub Profile](https://github.com/Rudrajit12)
 
 ---
